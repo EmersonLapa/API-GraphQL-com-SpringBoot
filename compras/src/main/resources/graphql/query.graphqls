@@ -1,0 +1,11 @@
+#Aqui é feito a declaracao dos schemmas
+type Cliente {
+    nome: String
+    email: String
+}
+
+type Query {
+    hello: String
+    soma(a: Int, b: Int): Int
+    cliente: Cliente
+}
